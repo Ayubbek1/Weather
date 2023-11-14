@@ -1,0 +1,16 @@
+{
+  "name": "ayub",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"vite\" \"json-server -p 7000 -w db.json\"",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "axios": "^1.6.1",
+    "concurrently": "^8.2.1",
+    "vite": "^4.4.0"
+  }
+}

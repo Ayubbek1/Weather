@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+  width: 100%;
+  height: 100vh;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+.iphone{
+  width: 400px;
+  height: 100%;
+  background: linear-gradient(5deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 15%, rgba(0,212,255,1) 82%);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 26%, rgba(9,9,121,1) 49%, rgba(9,9,121,1) 61%);
+  border-radius: 10px;
+  padding: 10px;
+  color: aliceblue;
+  position: relative;
+  transition: 1s ease;
+}
+.iphone p {
+  text-align: center;
+}
+.iphone h2 {
+
+  text-align: center;
+}
+.main_info{
+  margin-top: 40px;
+}
+.search{
+  background: #000;
+  color: aquamarine;
+  display: flex;
+  justify-content: center;
+}
+.corner{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.day{
+  background: linear-gradient(5deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 15%, rgba(0,212,255,1) 82%);
+
+}
+.night{
+  background: linear-gradient(180deg, rgba(2,0,36,1) 26%, rgba(9,9,121,1) 49%, rgba(9,9,121,1) 61%);
+
+}
